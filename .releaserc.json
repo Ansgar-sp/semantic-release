@@ -1,6 +1,7 @@
 {
   "repositoryUrl": "file:///home/ansgar/semantic-release-demo",
   "branches": [
+    "release",
     {
       "name": "master",
       "prerelease": "dev"
