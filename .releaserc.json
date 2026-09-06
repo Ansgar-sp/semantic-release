@@ -1,6 +1,7 @@
 {
-  "repositoryUrl": "file:///home/ansgar/semantic-release-demo",
+  "repositoryUrl": "https://github.com/Ansgar-sp/semantic-release.git",
   "branches": [
+    "release",
     {
       "name": "master",
       "prerelease": "dev"
