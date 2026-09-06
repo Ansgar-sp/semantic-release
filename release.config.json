@@ -1,4 +1,5 @@
 {
+  "repositoryUrl": ".",
   "branches": ["master"],
   "plugins": [
     [
