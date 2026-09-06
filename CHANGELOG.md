@@ -1,3 +1,9 @@
+## [0.10.0-dev.2](https://github.com/Ansgar-sp/semantic-release/compare/v0.10.0-dev.1...v0.10.0-dev.2) (2026-09-06)
+
+### Bug Fixes
+
+* rename file to fileB ([28a0316](https://github.com/Ansgar-sp/semantic-release/commit/28a03160dd857e00e9bc2aab892c42476423a95b))
+
 ## [0.10.0-dev.1](https://github.com/Ansgar-sp/semantic-release/compare/v0.9.0...v0.10.0-dev.1) (2026-09-06)
 
 ### Features
