@@ -1,3 +1,9 @@
+## [0.10.0-dev.4](https://github.com/Ansgar-sp/semantic-release/compare/v0.10.0-dev.3...v0.10.0-dev.4) (2026-09-06)
+
+### Bug Fixes
+
+* keep forward port title forward-port: release ([ef53b17](https://github.com/Ansgar-sp/semantic-release/commit/ef53b176a557676242346fc36c181112efcca116))
+
 ## [0.10.0-dev.3](https://github.com/Ansgar-sp/semantic-release/compare/v0.10.0-dev.2...v0.10.0-dev.3) (2026-09-06)
 
 ### Bug Fixes
