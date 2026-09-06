@@ -1,3 +1,9 @@
+## [0.10.0-dev.3](https://github.com/Ansgar-sp/semantic-release/compare/v0.10.0-dev.2...v0.10.0-dev.3) (2026-09-06)
+
+### Bug Fixes
+
+* add forward-port action forward-port: release ([69b8b84](https://github.com/Ansgar-sp/semantic-release/commit/69b8b841e465e3ddff6f4a7f4c94a4305020a765))
+
 ## [0.10.0-dev.2](https://github.com/Ansgar-sp/semantic-release/compare/v0.10.0-dev.1...v0.10.0-dev.2) (2026-09-06)
 
 ### Bug Fixes
