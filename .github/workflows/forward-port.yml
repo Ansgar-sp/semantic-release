@@ -35,6 +35,12 @@ jobs:
           fi
 
           target_branch="${BASH_REMATCH[1]}"
+          commit_subject="$(git log -1 --format=%s "$SOURCE_SHA")"
+          pr_title="$(printf '%s\n' "$commit_subject" | sed -E 's/[[:space:]]+forward-port:[[:space:]]*[^[:space:]]+[[:space:]]*$//')"
+          if [[ -z "$pr_title" ]]; then
+            pr_title="Forward-port $SOURCE_SHA"
+          fi
+
           if ! git check-ref-format --branch "$target_branch" >/dev/null; then
             echo "Invalid target branch: $target_branch" >&2
             exit 1
@@ -60,5 +66,5 @@ jobs:
             --repo "$GITHUB_REPOSITORY" \
             --base "$target_branch" \
             --head "$forward_branch" \
-            --title "Forward-port $SOURCE_SHA to $target_branch" \
-            --body "Forward-port commit $SOURCE_SHA from $SOURCE_BRANCH to $target_branch."
+            --title "$pr_title" \
+            --body "Forward-port of commit $SOURCE_SHA from $SOURCE_BRANCH to $target_branch."
