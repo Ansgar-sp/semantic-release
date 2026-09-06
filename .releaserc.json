@@ -1,6 +1,11 @@
 {
-  "repositoryUrl": ".",
-  "branches": ["master"],
+  "repositoryUrl": "file:///home/ansgar/semantic-release-demo",
+  "branches": [
+    {
+      "name": "master",
+      "prerelease": "dev"
+    }
+  ],
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
