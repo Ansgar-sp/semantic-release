@@ -1,3 +1,13 @@
+## [0.10.0-dev.5](https://github.com/Ansgar-sp/semantic-release/compare/v0.10.0-dev.4...v0.10.0-dev.5) (2026-09-08)
+
+### Features
+
+* new feature ([73b2f87](https://github.com/Ansgar-sp/semantic-release/commit/73b2f87a2e4da8a919d3cf70873b8137d7f3044d))
+
+### Bug Fixes
+
+* bugfix ([b0e7dec](https://github.com/Ansgar-sp/semantic-release/commit/b0e7dec638449503b568e9e55254fbe853d19c89))
+
 ## [0.10.0-dev.4](https://github.com/Ansgar-sp/semantic-release/compare/v0.10.0-dev.3...v0.10.0-dev.4) (2026-09-06)
 
 ### Bug Fixes
